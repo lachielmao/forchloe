@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>for my princess 🤎</title>
+  <style>
+    :root {
+      --bg: #8B6B4A;
+      --bg-dark: #6f5338;
+      --card: rgba(255, 248, 240, 0.12);
+      --text: #F5EDE3;
+      --muted: #E8D9C8;
+      --accent: #D9B99B;
+      --shadow: rgba(0, 0, 0, 0.18);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(255,255,255,0.08), transparent 35%),
+        linear-gradient(180deg, var(--bg), var(--bg-dark));
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .wrap {
+      width: min(900px, 92%);
+      margin: 0 auto;
+      padding: 32px 0 64px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 48px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.4rem, 6vw, 4.5rem);
+      margin-bottom: 12px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: var(--muted);
+      max-width: 650px;
+      margin: 0 auto 28px;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #3d2b1f;
+      background: var(--accent);
+      font-weight: bold;
+      box-shadow: 0 8px 20px var(--shadow);
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.95;
+    }
+
+    .section {
+      margin-top: 28px;
+      background: var(--card);
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 12px 30px var(--shadow);
+    }
+
+    .section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 14px;
+    }
+
+    .section p {
+      color: var(--muted);
+    }
+
+    .reasons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .reason {
+      background: rgba(255,255,255,0.08);
+      padding: 16px;
+      border-radius: 18px;
+    }
+
+    .timeline {
+      margin-top: 12px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .timeline-item {
+      padding-left: 16px;
+      border-left: 3px solid var(--accent);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .photo {
+      aspect-ratio: 1 / 1;
+      border-radius: 18px;
+      overflow: hidden;
+      background: rgba(255,255,255,0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .quote {
+      font-style: italic;
+      font-size: 1.1rem;
+      text-align: center;
+      color: var(--text);
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .small {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    iframe {
+      width: 100%;
+      border: 0;
+      border-radius: 16px;
+      margin-top: 16px;
+      min-height: 152px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>for you 🤎</h1>
+      <p>
+       I want you to know im always thinking about you my love <3
+      </p>
+      <div class="button-row">
+        <a class="btn" href="#reasons">why i adore you</a>
+        <a class="btn" href="#secret">do not click this</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>a little note</h2>
+      <p>
+       Being around you has always felt so easy my love. Thank you for making me smile and laugh every single day.
+      </p>
+    </section>
+
+    <section class="section" id="reasons">
+      <h2>reasons i love you</h2>
+      <div class="reasons">
+        <div class="reason">You make hard days feel so easy.</div>
+        <div class="reason">Your laugh is one of my favourite sounds.</div>
+        <div class="reason">You do things that are so lovely, and you dont even realise.</div>
+        <div class="reason">You still give me butterflies every single day.</div>
+        <div class="reason">You put up with all my silly things, like yk... chinese history...</div>
+        <div class="reason">You still love me through everything.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>our little timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <strong>When we met</strong>
+          <p class="small">I felt so scared waiting for you to come out of your house baby.</p>
+        </div>
+        <div class="timeline-item">
+          <strong>First date</strong>
+          <p class="small">Remember the calamari at vida? Im still a little scared its alive inside of me</p>
+        </div>
+        <div class="timeline-item">
+          <strong>Favourite memory</strong>
+          <p class="small">You make everyday my favourite one baby, but i just dont know if anything will ever top the Aquarium</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>photos / memories</h2>
+      <p>Replace these boxes with your own images.</p>
+      <div class="gallery">
+        <div class="photo">Put a photo here</div>
+        <div class="photo">Put a photo here</div>
+        <div class="photo">Put a photo here</div>
+      </div>
+    </section>
+
+
+    <section class="section">
+      <p class="quote">
+        Im sorry if this is a little cheesy.... But i truly mean everything im saying baby girl
+      </p>
+    </section>
+
+    <section class="section" id="secret">
+      <h2>okay, this was the secret bit</h2>
+      <p>
+        I truly love everything about you baby. I feel like we connect so perfectly, like two puzzle pieces. Thank you for always supporting and loving me no matter what. I love you with all my heart, from now until forever my love. <3 
+        </p>
+
+    </section>
+
+    <div class="footer">
+      made with love, probably while overthinking every sentence
+    </div>
+  </div>
+</body>
+</html>
